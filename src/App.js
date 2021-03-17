@@ -36,7 +36,7 @@ class App extends React.Component {
         <p>{this.state.index}</p>
         <button onClick={this.handleClick}>+</button>
         <button onClick={this.handleClick}>Reset</button>
-        <button onClick={(event) => this.handleClick(event)}>-</button>
+        <button onClick={this.handleClick}>-</button>
       </div>
     );
   }
